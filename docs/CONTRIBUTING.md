@@ -23,6 +23,15 @@ There are many ways to contribute to ARUX:
 *   **Improving Documentation:** Clear and comprehensive documentation is crucial. If you see areas where the documentation can be improved, please feel free to make changes and submit a pull request. This includes the README, this CONTRIBUTING guide, and any other documentation files.
 *   **Translating:** (Details to be added if internationalization becomes a goal)
 
+### Using AI Development Tools
+
+We encourage leveraging AI-powered tools to assist in development. To ensure these tools are used effectively and align with ARUX's architectural and quality standards, please consult our specific guidelines:
+
+*   **[Directives for IDE Code Assistants](ai_development_guidelines/IDE_ASSISTANT_DIRECTIVES.md):** Tailored for AI assistants integrated into IDEs (e.g., GitHub Copilot).
+*   **[System Prompt for ARUX Expert AI Development Assistant](ai_development_guidelines/AI_AGENT_SYSTEM_PROMPT.md):** Designed for configuring conversational AI agents (e.g., Claude, Gemini, ChatGPT) as expert ARUX development partners.
+
+Familiarizing yourself with these documents can help enhance your productivity and ensure your AI-assisted contributions are well-integrated.
+
 ## Development Setup
 
 (Details on how to set up a development environment for ARUX will be added here. This might include information on compiling Zune, setting up Amiberry, and any specific tools required for ARUX development.)

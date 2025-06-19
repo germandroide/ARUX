@@ -74,6 +74,17 @@ You can help by:
 *   Contributing code
 *   Improving documentation
 
+## AI-Assisted Development
+
+To empower our developers and accelerate the ARUX project, we are providing specific guidelines for leveraging AI-powered coding assistants. These guides are designed to help contributors effectively use tools like GitHub Copilot or conversational AI agents (such as Claude, Gemini, ChatGPT) in alignment with ARUX's architecture and quality standards.
+
+We encourage developers to explore these resources to enhance their productivity and learning:
+
+*   **[Directives for IDE Code Assistants](./docs/ai_development_guidelines/IDE_ASSISTANT_DIRECTIVES.md):** Guidelines for using AI assistants integrated directly into your IDE (e.g., GitHub Copilot).
+*   **[System Prompt for ARUX Expert AI Development Assistant](./docs/ai_development_guidelines/AI_AGENT_SYSTEM_PROMPT.md):** A comprehensive system prompt to configure conversational AI agents to act as expert assistants for ARUX development.
+
+By utilizing these AI-focused guidelines, we hope to foster a more innovative, efficient, and collaborative development environment.
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
