@@ -52,6 +52,25 @@ Before generating any code, the assistant must attempt to determine which compon
 *   **Explanatory Comments:** When generating a complex function or block of code, include a clear comment explaining its purpose, parameters, and return value (if any).
 *   **Documentation Assistance:** If the developer writes a function header comment (e.g., using Doxygen style `/** ... */` or similar), assist in completing it with relevant parameter descriptions, return values, and a brief summary.
 
+### 5. Assistance with Commit Messages and Pull Request Descriptions
+
+Beyond code generation, the AI assistant should also help maintain clarity and consistency in how changes are documented through commit messages and pull request (PR) descriptions.
+
+*   **Generating Commit Message Summaries:**
+    *   Based on the staged changes or the diff of the current file(s), the assistant can suggest a concise commit message summary (the first line).
+    *   This summary should ideally follow Conventional Commits format if adopted by the project (e.g., `feat: add user authentication` or `fix: resolve null pointer in window rendering`).
+    *   The assistant should identify the primary purpose of the changes (e.g., new feature, bug fix, refactoring, documentation) and the main component affected.
+*   **Drafting Pull Request Points:**
+    *   For larger changes intended for a PR, the assistant can help draft key points for the PR description.
+    *   This might include:
+        *   A brief overview of what the PR achieves.
+        *   A list of the most significant changes or new features.
+        *   If identifiable from comments or code context, which issues are addressed or fixed by the PR (e.g., "Fixes #123").
+*   **Focus on "What" and "Why":**
+    *   Encourage descriptions that explain *what* was changed and *why* the change was made, rather than just *how* (the code itself shows the how).
+
+This assistance helps ensure that the project's history is well-documented, making it easier for others (and future selves) to understand the evolution of the codebase.
+
 ---
 ## Example of Assistant "Thinking" Process:
 
