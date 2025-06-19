@@ -48,36 +48,6 @@ When the user launches a game in ADF/HDF format or a WHDLoad slave, the ARUX eng
 *   **Unified User Experience:** All underlying complexity is hidden. The user lives in a coherent and elegant Zune environment, no matter what they are running.
 *   **Platform for the Future:** With a native SDK, ARUX opens the door to a new generation of software that combines the design philosophy of Amiga with the power of modern hardware and APIs.
 
-## Phased Development Plan
-
-ARUX is an ambitious project, but it can be approached pragmatically and in stages.
-
-### Phase 1: The Foundation.
-*   Create the ARUX DE, porting Zune as a basic desktop environment for Linux.
-*   Implement the "Graphics Pipe" to redirect the video output of a standard Amiberry to an ARUX DE window. This step alone would already provide a huge leap in user experience.
-
-### Phase 2: The Dual Engine.
-*   Fork Amiberry to create the ARUX Execution Engine.
-*   Develop the "Native Integration Mode" and the proxy libraries of the Modified AROS 68k, initially focusing on the most popular productivity applications.
-
-### Phase 3: The Ecosystem.
-*   Refine the ARUX SDK to facilitate the development of new native software.
-*   Create configuration and management tools, such as a centralized control panel for the emulation engine.
-
-## Contributing
-
-We welcome contributions from the community! If you're interested in helping build ARUX, please check out our [Contributing Guidelines](docs/CONTRIBUTING.md) (to be created) for more information on how to get started.
-
-You can help by:
-*   Reporting bugs
-*   Suggesting new features
-*   Contributing code
-*   Improving documentation
-
-## License
-
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
-
 ## Conclusion: The Next Logical Step
 
 AROS was born from a passion for a vision: an elegant, efficient, and user-centric operating system. The ARUX project does not seek to abandon that vision, but to free it from the chains that have held it back.
