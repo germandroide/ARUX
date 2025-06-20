@@ -36,3 +36,17 @@ As per the hybrid development model, we will create a set of shared Linux librar
     * `IDCMP Messages`: Listens for Wayland input events (mouse, keyboard) and translates them into Intuition messages, which are then sent to the appropriate application task via the `libarux-exec` message-passing system.
 
 This architecture enables applications written against the AROS 68k API to run with a "68k soul" but with the "modern power" of native Linux performance and integration.
+
+## 3. Initial Project Roadmap
+
+This section outlines a conceptual roadmap. These items should be created as issues and labels within the project's GitHub repository.
+
+### Suggested Labels:
+* `fase-1`
+* `arux-de`
+* `arux-engine`
+
+### Suggested Initial Issues:
+* `[Fase 1][ARUX DE] Crear la estructura básica de la librería libarux-de.so`
+* `[Fase 1][ARUX DE] Implementar el 'Hola Mundo': una ventana vacía con tema Zune`
+* `[Fase 1][Tubo Gráfico] Investigación inicial de PipeWire para captura de ventanas`
